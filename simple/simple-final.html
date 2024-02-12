@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Popover API</title>
+</head>
+<body>
+<!-- popovertarget points to popover id -->
+<!-- Default behaviour is toggle button (popovertargetaction="toggle"). To change, use popovertargetaction = "hide", "show", "toggle" -->
+<button popovertarget="simple-popover">Toggle popover</button>
+<button popovertarget="simple-popover" popovertargetaction="show">Show popover</button>
+<button popovertarget="simple-popover" popovertargetaction="hide">Hide popover</button>
+
+<!-- Default is display: none; on page load -->
+<!-- On show, display: none; will be ommitted -->
+<!-- Default popover is "auto" -->
+<!-- Popover will be shown in browser top-layer -> https://developer.mozilla.org/en-US/docs/Glossary/Top_layer -->
+<div id="simple-popover" popover>Popover content</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    font-family: system-ui, sans-serif;
+    place-items: center;
+}
+
+button {
+    position: relative;
+}
+
+[popover] {
+    background: #333;
+    color: white;
+    font-weight: 400;
+    padding: 1rem;
+    max-width: 200px;
+    line-height: 1.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
